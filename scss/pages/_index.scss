@@ -1,0 +1,89 @@
+/*POR DEFECTO NAVEGADOR*/
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/*para que 1rem= 10px*/
+
+html {
+    font-size: 62.5%;
+}
+
+.body_index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../banner2.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: fixed;
+
+    #navbar {
+        padding: 0%;
+
+
+    }
+
+    #carrito {
+        border: none;
+        background-color: white;
+        margin-left: 80%;
+
+    }
+
+
+    .container-fluid {
+        background-color: white;
+        border-color: white;
+    }
+
+
+    .navbar-toggler {
+        display: flex;
+    }
+
+    .img_nav {
+        width: 5rem;
+        height: 5rem;
+    }
+
+
+
+    #logo {
+        display: flex;
+        width: 15rem;
+        height: 15rem;
+    }
+
+}
+
+.offcanvas-body {
+    background-image: url(../banner.jpg);
+}
+
+/*estilos quiensoy*/
+
+#quiensoy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90rem;
+    background-color: azure;
+    width: 100%;
+    
+    
+    img {
+        width: 40rem;
+        height: 40rem;
+    }
+
+}

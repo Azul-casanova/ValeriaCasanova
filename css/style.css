@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins:ital,wght@0,200;1,200&display=swap');
+
+/*POR DEFECTO NAVEGADOR*/
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+
+
+/*para que 1rem= 10px*/
+html {
+  font-size: 62.5%;
+}
+
+.body_index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../banner2.jpg);
+  width: 100%;
+  height: 100%;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 2rem;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: fixed;
+}
+header #navbar {
+  padding: 0%;
+}
+header #VerCarrito {
+  border: none;
+  background-color: white;
+  margin-left: 80%;
+}
+header .container-fluid {
+  background-color: white;
+  border-color: white;
+}
+header .navbar-toggler {
+  display: flex;
+}
+header .img_nav {
+  width: 5rem;
+  height: 5rem;
+}
+header #logo {
+  display: flex;
+  width: 15rem;
+  height: 15rem;
+}
+
+.offcanvas-body {
+  background-image: url(../banner.jpg);
+}
+
+/*estilos quiensoy*/
+#quiensoy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90rem;
+  background-color: azure;
+  width: 100%;
+}
+#quiensoy img {
+  width: 40rem;
+  height: 40rem;
+}
+
+#atencionAlCliente {
+  display: flex;
+  background-color: azure;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10rem;
+  width: 100%;
+
+  
+}
+
+.Card {
+  margin: 10rem;
+}
+
+.Comprar {
+  border: none;
+  
+}
+
+/*# sourceMappingURL=style.css.map */
