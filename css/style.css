@@ -19,7 +19,7 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-image: url(../banner2.jpg);
+  background-image: url(../images/banner.jpg);
   width: 100%;
   height: 100%;
   font-family: 'Amatic SC', sans-serif;
@@ -31,18 +31,25 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   position: fixed;
+
 }
 header #navbar {
   padding: 0%;
+
+
 }
 header #VerCarrito {
   border: none;
   background-color: white;
   margin-left: 80%;
+  height: 50%;
+
+
 }
 header .container-fluid {
   background-color: white;
   border-color: white;
+
 }
 header .navbar-toggler {
   display: flex;
@@ -66,33 +73,42 @@ header #logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 90rem;
-  background-color: azure;
+  margin-top: 20rem;
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  z-index: -2;
+
 }
 #quiensoy img {
   width: 40rem;
   height: 40rem;
 }
 
-#atencionAlCliente {
+
+
+#productos {
   display: flex;
-  background-color: azure;
-  flex-direction: row;
+  background-color: black;
+  backdrop-filter: blur(10px);
   justify-content: center;
+  flex-direction: column;
   margin-top: 10rem;
+  padding: 10rem;
   width: 100%;
+  color: azure;
 
-  
 }
 
-.Card {
-  margin: 10rem;
+
+#Carrito {
+  display: none;
 }
 
-.Comprar {
-  border: none;
-  
+#vaciarCarrito {
+  display: none;
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
